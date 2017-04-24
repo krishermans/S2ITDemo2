@@ -10,8 +10,13 @@ namespace Demo2
     {
         static void Main(string[] args)
         {
+
             var c = new Customer { Id = "Cust001" };
             Console.WriteLine($"Hello {c.Id}");
+
+            var e = new Employee { Name = "Kris Hermans" };
+            Console.WriteLine($"Hello {e.Name}");
+
         }
     }
 }
