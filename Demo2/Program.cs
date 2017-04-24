@@ -10,7 +10,8 @@ namespace Demo2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello git");
+            var c = new Customer { Id = "Cust001" };
+            Console.WriteLine($"Hello {c.Id}");
         }
     }
 }
